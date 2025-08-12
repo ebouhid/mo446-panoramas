@@ -13,23 +13,28 @@ Equipe
 Estrutura do Repositório
 O projeto está organizado da seguinte forma para facilitar a colaboração e o desenvolvimento:
 
+**OBS.:** Essa estrutura é uma sugestão inicial e provavelmente o resultado final será um pouco diferente.
+
 ```
 .
 ├── .gitignore             # Ignora arquivos desnecessários (dados, venv, cache)
 ├── README.md              # Este arquivo de documentação
 ├── requirements.txt       # Lista de dependências Python para o projeto
-├── main.py                # Script principal para executar o pipeline completo de costura
+├── main.py                # Placeholder, vamos incluir futuramente
 |
-├── data/                  # Contém as imagens de entrada. ESTA PASTA NÃO É VERSIONADA.
-│   ├── nossas_imagens/      # Adicione aqui as imagens capturadas pela equipe
-│   └── dataset_publico_1/ # Exemplo de pasta para um dataset público
+├── data/                  # Contém as imagens de entrada.
+│   ├── nossas_imagens/      # Imagens capturadas pela equipe
+│   └──
+│
+├── notebooks/             # Notebooks Jupyter para demonstração e testes
+│   └── keypoints.ipynb    # Demonstração/teste dos métodos de detecção de pontos-chave
 │
 ├── src/                   # Todo o código-fonte modularizado
-│   ├── deteccao.py        # Módulo para Detecção de Características (SIFT, ORB, etc.)
-│   ├── emparelhamento.py  # Módulo para Emparelhamento de Características
-│   ├── homografia.py      # Módulo para Estimação de Homografia com RANSAC
-│   ├── composicao.py      # Módulo para Composição do panorama e Blending
-│   └── utils.py           # Funções auxiliares (carregar/salvar imagens, etc.)
+│   ├── keypoints.py       # Placeholder, vamos incluir futuramente
+│   ├── emparelhamento.py  # Placeholder, vamos incluir futuramente
+│   ├── homografia.py      # Placeholder, vamos incluir futuramente
+│   ├── composicao.py      # Placeholder, vamos incluir futuramente
+│   └── utils.py           # Placeholder, vamos incluir futuramente
 │
 ├── results/               # Contém os resultados gerados. ESTA PASTA NÃO É VERSIONADA.
 │   ├── panoramas_finais/  # Os panoramas finais gerados automaticamente
