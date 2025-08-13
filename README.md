@@ -6,7 +6,7 @@ O objetivo geral do trabalho é aplicar conceitos de Visão Computacional para c
 
 Equipe
 - Eduardo Bouhid (RA: 299223)
-- Lucas Rodrigues (RA: xxxxxx)
+- Lucas Rodrigues (RA: 252615)
 - Marcelo Campos (RA: xxxxxx)
 - Thiago Rodrigues (RA: xxxxxx)
 
