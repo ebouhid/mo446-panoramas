@@ -1,5 +1,9 @@
-opencv-python
-numpy
-matplotlib
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.21.0
+matplotlib>=3.5.0
 jupyter
 notebook
+scikit-image>=0.19.0
+pillow>=8.0.0
+pillow-heif
