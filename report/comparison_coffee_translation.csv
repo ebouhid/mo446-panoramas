@@ -1,3 +1,4 @@
 Detector,Nº Médio de Keypoints,Nº Médio de Matches (Pós-Ratio Test),Nº Médio de Inliers (Pós-RANSAC),Tempo Total de Execução (s)
-SIFT,12000.11,2398.75,1067.75,11.2166
-ORB,12000.0,2483.25,473.38,1.2711
+SIFT,12000.11,2398.75,1067.75,11.4031
+ORB,12000.0,2483.25,473.38,1.2575
+AKAZE,6643.44,2875.5,853.38,6.0477
