@@ -4,6 +4,7 @@ __pycache__/
 
 .ipynb_checkpoints/
 venv/
+gridsearch_results/
 
 # Complete kaggle dataset is too big
 data/images/
